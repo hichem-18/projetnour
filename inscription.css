@@ -1,0 +1,67 @@
+body{
+    background: url(./image/background.PNG);
+}
+.btn-outline-danger
+{float: right;
+height: 60px;
+width: 150px;
+font-size: 25px;
+font-family: 'Love Ya Like A Sister', cursive;
+background-color: rgb(206, 92, 111);
+border: rgb(206, 92, 111);
+color: black;
+border-radius: 20px;
+border-style: groove;
+}
+ .btn:hover{
+background-color: rgb(165, 109, 91);
+color: white;
+border: rgb(165, 109, 91) ;
+}
+
+.rounded-circle
+{
+border:  dashed rgb(165, 109, 91);
+}
+
+h1{
+    margin-left: 15%;
+    font-size: 50px;
+    font-family: 'Caveat Brush', cursive;
+}
+
+label
+{
+ font-size: 25px;
+font-family: 'Grand Hotel', cursive;
+}
+.f2
+{
+    margin-left: 50%;
+    margin-top: -50%;
+}
+.f3
+{   margin-left: 75%;
+    width: 15%;
+    font-size: 30px;
+    background-color: rgb(252, 176, 105);
+    font-family: 'Nanum Pen Script', cursive;
+
+}
+
+.border
+{
+     width: 60%;
+     margin-left: 27%;
+}
+
+@media screen and (max-width:600px){
+    .f2{
+        margin-top:10%;
+        margin-left:-5%;
+        
+    }
+    .f3{
+        width: 40%;
+    }
+}

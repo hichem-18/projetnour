@@ -1,0 +1,41 @@
+body{
+    background: url(./image/background.PNG);
+}
+.btn-outline-danger
+{float: right;
+height: 60px;
+width: 150px;
+font-size: 25px;
+font-family: 'Love Ya Like A Sister', cursive;
+background-color: rgb(206, 92, 111);
+border: rgb(206, 92, 111);
+color: black;
+border-radius: 20px;
+border-style: groove;
+}
+ .btn:hover{
+background-color: rgb(165, 109, 91);
+color: white;
+border: rgb(165, 109, 91) ;
+}
+
+.rounded-circle
+{
+border:  dashed rgb(165, 109, 91);
+}
+.i2
+{
+    margin-left: 60%;
+}
+
+h1{
+    margin-top: -25%;
+    font-family: 'Kaushan Script', cursive;
+    color: rgb(56, 161, 130);
+    text-decoration: underline;}
+p{
+ width: 50%;
+ text-align: justify;
+ font-size: 20px;
+ font-family: 'Norican', cursive;
+}
